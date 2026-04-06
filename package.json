@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "pnpx servor src/ index.html 1234 --reload",
     "build": "echo 'Build script'",
-    "deploy": "echo 'Deploy script'"
+    "deploy": "gh-pages -d src"
   },
   "keywords": [],
   "author": "",
